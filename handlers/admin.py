@@ -6,7 +6,7 @@ import asyncio
 import datetime
 import config
 
-db = DataBase("DataBase.db")
+db = DataBase("../DataBase.db")
 loop = asyncio.get_event_loop()
 delay = 60.0
 
